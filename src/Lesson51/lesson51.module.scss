@@ -1,0 +1,25 @@
+.span{
+    width: 20px;
+    height: 3px;
+    background: red;
+    position: absolute;
+    top: 50%;
+}
+.menu{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background: #000;
+    border-radius: 10px;
+}
+.menu {
+    .span:nth-child(2){
+        transform: rotate(-45deg);
+    }
+    .span:nth-child(1){
+        transform: rotate(45deg);
+    }
+}
