@@ -91,7 +91,7 @@ console.log(country);
                                     populationFixed = `${Math.floor(population/1000000).toFixed()} mln`
                                 } else if(population > 1000){
                                     populationFixed = `${Math.floor(population/1000).toFixed()} ming`;
-                                } else if(population == 0){
+                                } else if(population === 0){
                                     populationFixed = `${population}`
                                 } 
                                 else{
